@@ -1,0 +1,138 @@
+/* --------
+    Font 
+----------*/
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+ /*--------------
+    Common Part
+  --------------*/
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: white;
+}
+
+/*------------
+  Header Part
+-------------*/
+
+.header{
+    width: 1920px;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+.nav-title{
+    width: 302px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+    padding-top: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 60px;
+    padding-right: 100px;
+}
+nav li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    text-align: center;
+}
+
+/*-------------
+  Banner Part
+-------------*/
+
+.banner{
+    display: flex;
+    flex-direction: column;
+}
+.banner-details{
+    text-align: center;
+    width: 868px;
+    padding-left: 25%;
+    padding-right: 20%;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313; 
+}
+.banner-description{
+    width: 868px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.banner-img{
+    border-radius: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+/*--------------------
+Responsive For Mobile
+--------------------*/
+
+@media only screen and (max-width: 576px) {
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    .header{
+        width: 100%;
+        height: 100%;
+    }
+    nav, nav ul{
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+    nav ul{
+        padding-top: 0;
+    }
+    .nav-title{
+        text-align: center;
+        margin-left: 25px;
+    }
+    .banner-details{
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding-left: 0%;
+        padding-right: 0;
+    }
+    .banner-description{
+        margin: 0 50px;
+    }
+    .banner-img img{
+        width: 100%;
+        margin-right: 50px;
+        margin-left: 0;
+    }
+}
