@@ -93,13 +93,68 @@ nav li{
     margin-right: 10%;
 }
 
+/*-------------------
+    Main Part
+------------------- */
 
+  /* ----Section 01---- */
+
+.section-1{
+    display: flex;
+    margin-top: 75px;
+}
+.section-1-photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    gap: 24px;
+    border-radius: 10px;
+    padding-left: 300px;
+}
+.section-1-photo img{
+    width: 342px;
+    height: 342px;
+}
+.section-1-container{
+    width: 537px;
+    padding-left: 73px;
+    margin-top: 280px;
+}
+.section-1-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 24px;
+}
+.section-1 .txt-clr-1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.section-1 .txt-clr-2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+}
+.section-1-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+#btn-1{
+    margin-top: 0;
+}
 
 /*--------------------
 Responsive For Mobile
 --------------------*/
 
 @media only screen and (max-width: 576px) {
+    /* ----Header and Banner Part------ */
     body{
         width: 100%;
         margin: 0;
@@ -118,21 +173,46 @@ Responsive For Mobile
     }
     .nav-title{
         text-align: center;
-        margin-left: 25px;
+        margin-left: 30px;
     }
     .banner-details{
         text-align: center;
         width: 100%;
         margin: 0;
-        padding-left: 0%;
+        padding-left: 0;
         padding-right: 0;
     }
     .banner-description{
-        margin: 0 50px;
+        margin: 0 100px;
     }
     .banner-img img{
         width: 100%;
         margin-right: 50px;
         margin-left: 0;
+    }
+
+    /* ------------------
+         Main Part
+    -------------------*/
+        
+    /* ---Section-1--- */
+
+    .section-1{
+        flex-direction: column;
+        width: 100%;
+        margin: 20px;
+    }
+    .section-1-photos{
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 0;
+        grid-area: 20px;
+    }
+    .section-1-container{
+        width: 350px;
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+        
     }
 }
