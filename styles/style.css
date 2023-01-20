@@ -102,6 +102,7 @@ nav li{
 .section-1{
     display: flex;
     margin-top: 75px;
+    margin-bottom: 200px;
 }
 .section-1-photos{
     display: grid;
@@ -118,7 +119,7 @@ nav li{
 .section-1-container{
     width: 537px;
     padding-left: 73px;
-    margin-top: 280px;
+    margin-top: 200px;
 }
 .section-1-title{
     font-weight: 500;
@@ -149,7 +150,321 @@ nav li{
     margin-top: 0;
 }
 
-/*--------------------
+/*------------
+  Section 02
+-------------*/
+/* .section-2{
+    width: 1440px;
+    margin-top: 120px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, 200px);
+    margin-bottom: 800px;
+}
+.section-2-containers{
+    display: flex;
+    gap: 130px;
+}
+.section-2-header{
+    margin-bottom: 20px;
+    display: flex;
+}
+.section-2-container-1{
+    margin-top: 0px;
+}
+.hr{
+    border-left: 8px solid #FF900E;
+    width: 10px;
+    height: 150px;
+    margin-top: 65px;
+}
+.section-2-containers-title{
+    width: 568px;
+    height: 150px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    
+}
+.section-2-containers-discription{
+    width: 586px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-left: 10%;  
+}
+.section-2-container{
+    width: 586px;
+    height: 164.86px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.section-2-container-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.section-2-container-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;    
+}
+.section-2-container-2{
+    margin-top: 50px;
+    
+}
+    
+
+.btn-2{
+    width: 342px;
+    height: 192.82px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto; 
+    margin-left: ;
+}
+#btn2{
+    font-weight: 700;
+    font-size: 65px; 
+    
+} */
+.section-2{
+    width: 1440px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, 200px);
+    margin-left: 10%;
+    margin-top: 130px;
+}
+.section-2-container-1{
+    display: flex;
+    margin-top: 0px;
+}
+.vl{
+    border-left: 6px solid #FF900E;
+    width: 0px;
+    height: 140px;
+    margin-left: 10%;
+    margin-top: 60px;
+}
+.section-2-containers-title{
+    width: 668px;
+    height: 140px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 0px;
+    margin-left: 21px;
+}
+.section-2-containers-discription{
+    width: 586px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-left: 10%;
+    color: #727272;
+}
+.section-2-containers-discription{
+    width: 586px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-left: 10%;
+    color: #727272;
+}
+.section-2-img{
+    width: 708px;
+    margin-left: 136px;
+    border-radius: 8px;
+}
+.section-2-conatainer-main{
+    width: 586px;
+    height: 171px;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.section-2-container{
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding-left: 30px;
+}
+.section-2-container-title{
+    width: 281px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.section-2-container-description{
+    width: 514px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.btn-2{
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 80% 0 0% 0px;
+}
+#btn-2{
+    font-weight: 700;
+    font-size: 65px;
+}
+
+/*-------------------
+     Section -3
+--------------------*/
+.section-3{
+    width: 1440px;
+    margin-left: 15%;
+    margin-top: 550px;
+}
+.section-3-containers-1-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.section-3-containers-1-description{
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+.section-3-containers-2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.section-3-container{
+    box-sizing: border-box;
+    text-align: center; 
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin: 50px 36px 60px 0px;
+    padding-top: 50px;
+}
+.section-3-container:hover{
+    border: 6px solid #FF900E;
+    border-radius: 15px;
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+}
+
+/*-----------------
+    Section-4
+------------------*/
+.section-4{
+    margin-left: 15%;
+    width: 1440px;
+
+    margin-bottom: 30px;
+}
+.section-4-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;    
+}
+.section-4-projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 40px;
+}
+.section-4-project{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.section-4-project .section-4-thumbnail img{
+    width: 240px;
+    height: 120px;
+    border-radius: 8px;
+}
+.section-4-project-title{
+    font-weight: 600;
+    font-size: 35px;
+    color: #131313;
+    margin-bottom: 0;
+}
+/* ----------------
+    Section - 5 
+------------------- */
+.section-5{
+    margin-top: 100px;
+    margin-left: 8%;
+}
+.sponsors-head{
+    width: 1440px;
+    text-align: center;
+    margin-left: 4%;
+    margin-bottom: 30px;
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponsor-description{
+    text-align: center;
+}
+.sponsors-main{
+    margin-bottom: 30px;
+}
+.sponsors-main img{
+    padding-top: 50px;
+    padding-left: 125px;
+    mix-blend-mode: luminosity;
+}
+/* -------------
+    Footer Part
+--------------- */
+
+.footer-description{
+    width: 720px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 39px 410px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #424242;
+    background-color: #FFF4E7;
+    border-radius: 10px;
+    margin-left: 10%;
+    
+}
+/*---------------+--
 Responsive For Mobile
 --------------------*/
 
